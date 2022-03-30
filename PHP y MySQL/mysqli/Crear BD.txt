@@ -1,0 +1,22 @@
+//BD de prueba
+create database prueba_consola;
+
+//Despues de creada la BD accedemos a ella y creamos una tabla
+use prueba_consola;
+create table usuarios(id INT AUTO_INCREMENT,
+                        nombre varchar(100) NOT NULL,
+                        email varchar(100),
+                        PRIMARY KEY(id));
+
+//Insertar datos, el orden de los valores es importante porque los
+//agrega conforme se crearon los campos de la tabla
+INSERT INTO usuarios values(null, 'Tommy', 'correo@correo.com')
+//Agregar datos a campos especificos
+INSERT INTO usuarios (nombre, email) values ('Pickles', 'correo2@correo.com')
+
+//Consultar datos de tabla
+SELECT * FROM `nombre-de-tabla`
+
+//editar registro de tabla
+UPDATE `nombre-de-tabla` SET `campo-a-cambiar` WHERE `condicion-a-cumplir`
+UPDATE usuarios SET nombre = 'Anton' WHERE id = 1
