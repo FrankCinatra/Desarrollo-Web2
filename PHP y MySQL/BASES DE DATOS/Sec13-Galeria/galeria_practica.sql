@@ -20,7 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `galeria_practica`
 --
-CREATE DATABASE `galeria_practica`
 -- --------------------------------------------------------
 
 --

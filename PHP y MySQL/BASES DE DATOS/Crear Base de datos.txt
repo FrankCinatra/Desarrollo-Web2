@@ -1,0 +1,12 @@
+Antes de cargar los sql de las BD, hay que crearlas en MySQL
+Pongo aquí los comandos que hay que poner antes de poder importar los
+sql que estan en sus carpetas respectivas (no guardé todas las BD,
+no me acordé al momento)
+
+CREATE DATABASE `curso_login`
+
+
+CREATE DATABASE `galeria_practica`
+
+
+CREATE DATABASE `blog_practica`

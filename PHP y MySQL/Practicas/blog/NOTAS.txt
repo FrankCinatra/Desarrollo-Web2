@@ -1,0 +1,9 @@
+Para acceder al Login, hay que cambiar la ruta en el navegador
+Solo hay que agregarle ..../login.php y te va a mandar al Login
+Usuario y contraseña son:
+	User: Tommy
+	Ctra: 12345
+Se encuentran en el archivo blog/admin/config.php
+
+Al igual que los datos de la base de datos, la cantidad de articulos por
+pagina y ruta(s).

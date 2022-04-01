@@ -20,8 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `curso_login`
 --
-CREATE DATABASE `curso_login`
-USE `curso_login`
+
 -- --------------------------------------------------------
 
 --
